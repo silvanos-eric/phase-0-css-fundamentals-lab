@@ -3,3 +3,52 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Align the header to the center */
+h1 {
+  text-align: center;
+}
+
+/* Align the image to the center */
+img {
+  max-width: 100%;
+  display: block;
+  margin-inline: auto;
+}
+
+/* Center all nav links */
+nav {
+  text-align: center;
+}
+
+/* pad anchor tags with 10px */
+nav a {
+  padding-inline: 10px;
+  background-color: lightgray;
+}
+
+/* Shrink image caption, and center it */
+figcaption {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 0.25em;
+}
+
+/* give p elements within the #featured-property element a hard width of 800px */
+/* center the p elements, and center their text */
+#featured-property p {
+  max-width: 800px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+/* styles specifi to all  div elements */
+section#details {
+  background-color: rgb(241, 170, 170);
+  text-align: center;
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10%;
+}
